@@ -1,3 +1,10 @@
+This is an old version of ros_astra_camera, merged with ros_astra_launch. At the moment, I prefer to use this repo with DOPE, otherwise the recent ros_astra_camera causes a position bias. 
+
+```
+roslaunch astra_launch astra.launch
+```
+
+---------
 1. Go to catkin workshop dir and compiler astra_camera
 ```
 $ catkin_make --pkg astra_camera
