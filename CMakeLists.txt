@@ -59,6 +59,10 @@ catkin_package(
   #DEPENDS libastra
 )
 
+# install the launch files
+install(DIRECTORY launch/
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch)
+        
 link_directories(${CMAKE_CURRENT_BINARY_DIR}/openni2/Redist)
 
 include_directories(include
